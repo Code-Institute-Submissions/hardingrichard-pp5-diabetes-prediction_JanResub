@@ -56,11 +56,11 @@ Although your friend has an excellent understanding of property prices in her ow
 * 2 - The client is interested in predicting the house sale price from her 4 inherited houses, and any other house in Ames, Iowa.
 
 
-## Hypothesis and how to validate?
+## Hypothesis & Validation
 * List here your project hypothesis(es) and how you envision validating it (them) 
 
 
-## The rationale to map the business requirements to the Data Visualisations and ML tasks
+## Rationale
 * List your business requirements and a rationale to map them to the Data Visualisations and ML tasks
 
 
@@ -74,7 +74,7 @@ Although your friend has an excellent understanding of property prices in her ow
 
 
 
-## Unfixed Bugs
+## Bug Fixes
 * You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not valid reason to leave bugs unfixed.
 
 ## Deployment
@@ -90,7 +90,7 @@ Although your friend has an excellent understanding of property prices in her ow
 5. The deployment process should happen smoothly in case all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
 
 
-## Main Data Analysis and Machine Learning Libraries
+## Libraries
 * Here you should list the libraries you used in the project and provide example(s) of how you used these libraries.
 
 
@@ -112,6 +112,6 @@ Although your friend has an excellent understanding of property prices in her ow
 
 
 
-## Acknowledgements (optional)
+### Acknowledgements (optional)
 * In case you would like to thank the people that provided support through this project.
 
