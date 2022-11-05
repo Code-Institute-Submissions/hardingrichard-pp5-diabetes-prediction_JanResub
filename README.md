@@ -1,3 +1,17 @@
+# Heritage Housing
+
+## Table of Contents
+1. [Dataset Content](#dataset-content)
+2. [Business Requirements](#business-requirements)
+3. [Hypothesis & Validation](#hypothesis-&-validation)
+4. [Rationale](#rationale)
+5. [ML Business Case](#ml-business-case)
+6. [Dashboard Design](#dashboard-design)
+7. [Bug fixes](#bug-fixes)
+8. [Deployment](#deployment)
+9. [Libraries](#libraries)
+10. [Credits](#credits)
+
 ## Dataset Content
 * The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/housing-prices-data). We created then a fictitious user story where predictive analytics can be applied in a real project in the workplace. 
 * The dataset has almost 1.5 thousand rows and represents housing records from Ames, Iowa; indicating house profile (Floor Area, Basement, Garage, Kitchen, Lot, Porch, Wood Deck, Year Built) and its respective sale price for houses built between 1872 and 2010.
