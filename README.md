@@ -13,49 +13,30 @@
 10. [Credits](#credits)
 
 ## Dataset Content
-* The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/housing-prices-data). 
-The Dataset relates to female subjects based on how many pregnancies they have been through and how various biomarkers correlate to an outcome of being diabetic. From this Dataset a user story was then created where predictive analytics can be used to assist healthcare professionals for providing a prediction.
-* The dataset consists of 768 rows and 9 feature sets which represent the following biomarkers: Glucose (Plasma glucose concentration), Blood pressure (Diastolic blood pressure measured in mm Hg), Skin Thickness (Tricep skin fold measured in mm), Insulin levels (2 hour serum level measured in mu U/ml), BMI (Body Mass Index measured in weight Kg/height m^2), Diabetes Pedigree Function (Scores likelihood of diabetes based on family history), Age (the age of the subject) and Outcome (indicator for whether the patient has diabetes)
+* The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database).
+* The dataset was originally from the National Institute of Diabetes and Digestive and Kidney Diseases.  
+*The dataset relates to female subjects based on how many pregnancies they have been through and how various biomarkers correlate to an outcome of being diabetic. From this dataset predictive analytics can be used to assist healthcare professionals in providing a prediction on whether or not a patient has diabetes.
+* The dataset consists of 768 rows and 9 feature sets which represent the following predictor variables: Glucose (Plasma glucose concentration), Blood pressure (Diastolic blood pressure measured in mm Hg), Skin Thickness (Tricep skin fold measured in mm), Insulin levels (2-hour serum level measured in mu U/ml), BMI (Body Mass Index measured in weight Kg/height m^2), Diabetes Pedigree Function (Scores likelihood of diabetes based on family history), Age (the age of the subject) and a target variable of Outcome (indicator for whether the patient has diabetes)
 
 
 |Variable|Meaning|Units|
 |:----|:----|:----|
-|1stFlrSF|First Floor square feet|334 - 4692|
-|2ndFlrSF|Second-floor square feet|0 - 2065|
-|BedroomAbvGr|Bedrooms above grade (does NOT include basement bedrooms)|0 - 8|
-|BsmtExposure|Refers to walkout or garden level walls|Gd: Good Exposure; Av: Average Exposure; Mn: Minimum Exposure; No: No Exposure; None: No Basement|
-|BsmtFinType1|Rating of basement finished area|GLQ: Good Living Quarters; ALQ: Average Living Quarters; BLQ: Below Average Living Quarters; Rec: Average Rec Room; LwQ: Low Quality; Unf: Unfinshed; None: No Basement|
-|BsmtFinSF1|Type 1 finished square feet|0 - 5644|
-|BsmtUnfSF|Unfinished square feet of basement area|0 - 2336|
-|TotalBsmtSF|Total square feet of basement area|0 - 6110|
-|GarageArea|Size of garage in square feet|0 - 1418|
-|GarageFinish|Interior finish of the garage|Fin: Finished; RFn: Rough Finished; Unf: Unfinished; None: No Garage|
-|GarageYrBlt|Year garage was built|1900 - 2010|
-|GrLivArea|Above grade (ground) living area square feet|334 - 5642|
-|KitchenQual|Kitchen quality|Ex: Excellent; Gd: Good; TA: Typical/Average; Fa: Fair; Po: Poor|
-|LotArea| Lot size in square feet|1300 - 215245|
-|LotFrontage| Linear feet of street connected to property|21 - 313|
-|MasVnrArea|Masonry veneer area in square feet|0 - 1600|
-|EnclosedPorch|Enclosed porch area in square feet|0 - 286|
-|OpenPorchSF|Open porch area in square feet|0 - 547|
-|OverallCond|Rates the overall condition of the house|10: Very Excellent; 9: Excellent; 8: Very Good; 7: Good; 6: Above Average; 5: Average; 4: Below Average; 3: Fair; 2: Poor; 1: Very Poor|
-|OverallQual|Rates the overall material and finish of the house|10: Very Excellent; 9: Excellent; 8: Very Good; 7: Good; 6: Above Average; 5: Average; 4: Below Average; 3: Fair; 2: Poor; 1: Very Poor|
-|WoodDeckSF|Wood deck area in square feet|0 - 736|
-|YearBuilt|Original construction date|1872 - 2010|
-|YearRemodAdd|Remodel date (same as construction date if no remodelling or additions)|1950 - 2010|
-|SalePrice|Sale Price|34900 - 755000|
-
-
-
+|Pregnancies|Number of times pregnant|0-17|
+|Glucose|Plasma glucose concentration using a glucose tolerance test|0 - 199|
+|BloodPressure|Diastolic blood pressure (mm Hg)|0 - 122|
+|SkinThickness|Tricep skin fold thickness (mm)|0-99|
+|Insulin|2-hour serum insulin (mu U/ml)|0-846|
+|BMI|Body Mass Index (kg/m^2)|0-67.1|
+|DiabetesPedigreeFunction|Scores likeliness of diabetes based on family history| 0.08-2.42|
+|Age|Age of the subject|21-81|
+|Outcome|Class variable of 0(500) or 1(268)|0-1|
 
 
 ## Business Requirements
-As a good friend, you are requested by your friend, who has received an inheritance from a deceased great-grandfather located in Ames, Iowa, to  help in maximising the sales price for the inherited properties.
+A medical center in North America is looking to improve their diagnoses of diabetes using the assistance of machine learning and investigating how best to use previous patient data on file in order to better predict whether or not future patients are likely to have diabetes or not.
 
-Although your friend has an excellent understanding of property prices in her own state and residential area, she fears that basing her estimates for property worth on her current knowledge might lead to inaccurate appraisals. What makes a house desirable and valuable where she comes from might not be the same in Ames, Iowa. She found a public dataset with house prices for Ames, Iowa, and will provide you with that
-
-* 1 - The client is interested in discovering how the house attributes correlate with the sale price. Therefore, the client expects data visualisations of the correlated variables against the sale price to show that.
-* 2 - The client is interested in predicting the house sale price from her 4 inherited houses, and any other house in Ames, Iowa.
+* 1 - The client is interested in discovering how various biomarkers in female patients correlate to the likeliness of developing diabetes. The client expects to better understand this by reviewing data visualizations of the biomarker variables
+* 2 - The client is also interested in how these biomarkers can be used to predict the likeliness of the patient having diabetes.
 
 
 ## Hypothesis & Validation
