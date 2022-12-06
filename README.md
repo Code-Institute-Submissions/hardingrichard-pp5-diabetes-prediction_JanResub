@@ -1,4 +1,4 @@
-# Heritage Housing
+# Diabetes Prediction
 
 ## Table of Contents
 1. [Dataset Content](#dataset-content)
