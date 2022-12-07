@@ -19,21 +19,21 @@
 * The dataset consists of 768 rows and 9 feature sets which represent the following predictor variables: Glucose (Plasma glucose concentration), Blood pressure (Diastolic blood pressure measured in mm Hg), Skin Thickness (Tricep skin fold measured in mm), Insulin levels (2-hour serum level measured in mu U/ml), BMI (Body Mass Index measured in weight Kg/height m^2), Diabetes Pedigree Function (Scores likelihood of diabetes based on family history), Age (the age of the subject) and a target variable of Outcome (indicator for whether the patient has diabetes)
 
 
-|Variable|Meaning|Units|
+|Variable|Meaning|Units|Data Type|
 |:----|:----|:----|
-|Pregnancies|Number of times pregnant|0-17|
-|Glucose|Plasma glucose concentration using a glucose tolerance test|0 - 199|
-|BloodPressure|Diastolic blood pressure (mm Hg)|0 - 122|
-|SkinThickness|Tricep skin fold thickness (mm)|0-99|
-|Insulin|2-hour serum insulin (mu U/ml)|0-846|
-|BMI|Body Mass Index (kg/m^2)|0-67.1|
-|DiabetesPedigreeFunction|Scores likeliness of diabetes based on family history| 0.08-2.42|
-|Age|Age of the subject|21-81|
-|Outcome|Class variable of 0(500) or 1(268)|0-1|
+|Pregnancies|Number of times pregnant|0-17|int|
+|Glucose|Plasma glucose concentration using a glucose tolerance test|0 - 199|int|
+|BloodPressure|Diastolic blood pressure (mm Hg)|0 - 122|int|
+|SkinThickness|Tricep skin fold thickness (mm)|0-99|int|
+|Insulin|2-hour serum insulin (mu U/ml)|0-846|int|
+|BMI|Body Mass Index (kg/m^2)|0-67.1|num|
+|DiabetesPedigreeFunction|Scores likeliness of diabetes based on family history| 0.08-2.42|num|
+|Age|Age of the subject|21-81|int|
+|Outcome|Class variable of 0(500) or 1(268)|0-1|int|
 
 
 ## Business Requirements
-Diabetes is a growing disease which affects a large portion of the population around the world. Accurate and opportune predictions of diabetes is important due to the complications that it can pose on other life-threatening diseases. A medical center in North America is looking to improve their diagnoses of diabetes using the assistance of machine learning and investigating how best to use previous patient data in order to better predict whether or not future patients are likely to have diabetes.
+Diabetes is a growing disease which affects a large portion of the population around the world. Accurate and opportune predictions of diabetes is important due to the complications that it can pose on other life-threatening diseases. A medical center in Phoenix, Arizona is looking to improve their diagnoses of diabetes using the assistance of machine learning and investigating how best to use previous patient data in order to better predict whether or not future patients are likely to have diabetes.
 
 * 1 - The client is interested in discovering how various biomarkers in female patients correlate to the likeliness of developing diabetes. The client expects to better understand this by reviewing data visualizations of the biomarker variables.
 * 2 - The client is also interested in how these biomarkers can be used to predict the likeliness of the patient having diabetes.
@@ -47,6 +47,7 @@ The following hypothesis will help guide the direction of data analysis for the 
 * Based off of my understanding of diabetes, High blood sugar levels are likely to be a primary predictor of the outcome of a diabetes diagnosis.
     * Visualisation to be used to show glucose levels and correlation to diabetes
 * Biomarkers such as blood pressure and skin thickness will likely hold a low level of correlation for whether or not a patient has diabetes.
+* The World Health Orginisation surveyed 
 
 ## Rationale
 * List your business requirements and a rationale to map them to the Data Visualisations and ML tasks
