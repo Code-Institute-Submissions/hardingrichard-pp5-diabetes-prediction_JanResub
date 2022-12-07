@@ -35,6 +35,14 @@
 
 
 ## User Stories
+The project for predicting diabetes can be divided into 4 epics which are as follows:
+* The collection of the data
+* Data visualisation and preparation
+* Training and implementing the Machine Learning model
+* Creation and deployment of the dashboard for endpoint use
+
+The user stories which relate to the above can be seen below in the table.
+
 |No.|As a |I want to |Satisfied? (Y/N)|
 |:----|:----|:----|:----|
 |1.|Client|Be able to get a prediction on whether a patient has diabetes|Y|
@@ -100,11 +108,13 @@ The following hypothesis will help guide the direction of data analysis for the 
 
 ## ML Business Case
 * A Machine Learning model is required to predict the outcome of a patient having diabetes or not.
-+ Create a Machine Learning Model which satisfies the business requirement of predicting at a score of 0.75 or greater on both the training and test datasets. It will be able to make appropriate predictions on test data and any future data used by the client.
+* Creation of a Machine Learning Model which satisfies the business requirement of predicting at a score of 0.75 or greater on both the training and test datasets. It will be able to make appropriate predictions on test data and any future data used by the client.
 * A Support Vector Machine model will be chosen to achieve the prediction due to it being a classifier model and can therefor classify whether or not a patient is diabetic or non-diabetic.
-* If the model is unable to reach an accuracy score of 0.75 then this will be deemed a fail.
+* If the model is unable to reach an accuracy score of 0.75 then this will be deemed a fail anything greater than this would be a success.
 * The output of the model will be defined as whether the patient is given a prediction of diabetic or non-diabetic.
-* The dataset used for the training of the model is derived from a publicly available dataset on Kaggle, containing 768 rows and 9 feature sets. The target variable for the trainset is the 'Outcome' variable with 0 meaning non-diabetic and 1 meaning diabetic.
+* The dataset used for the training of the model is derived from a publicly available dataset on Kaggle, containing 768 rows and 9 feature sets. The target variable for the trainset is the 'Outcome' variable with 0 meaning non-diabetic and 1 meaning diabetic. As this is publicly available there are no ethical or privacy concerns.
+* By creating a Machine Learning model to predict the outcome of patients having diabetes it will improve the efficiency of healthcare workers and the medical industry's ability to diagnose patients allowing resources to be used elsewhere.
+* Having a dashboard endpoint will allow for healthcare workers to easily input data to achieve a prediction on patient data.
 
 
 ## Dashboard Design
