@@ -28,8 +28,8 @@
 |BloodPressure|Diastolic blood pressure (mm Hg)|0 - 122|int|
 |SkinThickness|Tricep skin fold thickness (mm)|0-99|int|
 |Insulin|2-hour serum insulin (mu U/ml)|0-846|int|
-|BMI|Body Mass Index (kg/m^2)|0-67.1|num|
-|DiabetesPedigreeFunction|Scores likeliness of diabetes based on family history| 0.08-2.42|num|
+|BMI|Body Mass Index (kg/m^2)|0-67.1|float|
+|DiabetesPedigreeFunction|Scores likeliness of diabetes based on family history| 0.08-2.42|float|
 |Age|Age of the subject|21-81|int|
 |Outcome|Class variable of 0(500) or 1(268)|0-1|int|
 
