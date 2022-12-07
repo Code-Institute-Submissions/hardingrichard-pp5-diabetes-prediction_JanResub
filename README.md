@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [Dataset Content](#dataset-content)
 2. [Business Requirements](#business-requirements)
-3. [Hypothesis & Validation](#hypothesis-&-validation)
+3. [Hypothesis](#hypothesis)
 4. [Rationale](#rationale)
 5. [ML Business Case](#ml-business-case)
 6. [Dashboard Design](#dashboard-design)
@@ -35,16 +35,18 @@
 ## Business Requirements
 Diabetes is a growing disease which affects a large portion of the population around the world. Accurate and opportune predictions of diabetes is important due to the complications that it can pose on other life-threatening diseases. A medical center in North America is looking to improve their diagnoses of diabetes using the assistance of machine learning and investigating how best to use previous patient data in order to better predict whether or not future patients are likely to have diabetes.
 
-* 1 - The client is interested in discovering how various biomarkers in female patients correlate to the likeliness of developing diabetes. The client expects to better understand this by reviewing data visualizations of the biomarker variables
+* 1 - The client is interested in discovering how various biomarkers in female patients correlate to the likeliness of developing diabetes. The client expects to better understand this by reviewing data visualizations of the biomarker variables.
 * 2 - The client is also interested in how these biomarkers can be used to predict the likeliness of the patient having diabetes.
 * 3 - The client requires a machine learning tool that their healthcare practitioners can use to identify whether a patient has diabetes.
-* 4 - The client expresses that the machine learning tool can be easily accessed via a dashboard.
+* 4 - The client expects an accuracy score of 75% or higher in predicting the outcome of diabetes.
+* 5 - The client expresses that the machine learning tool can be easily accessed via a dashboard with the ability to input patient data to produce a prediction for diagnosis which can be used to better support the patient.
 
 
-## Hypothesis & Validation
-* High blood sugar levels are likely to be a primary predictor in the outcome of a diabetes diagnosis.
+## Hypothesis
+The following hypothesis will help guide the direction of data analysis for the above dataset.
+* Based off of my understanding of diabetes, High blood sugar levels are likely to be a primary predictor of the outcome of a diabetes diagnosis.
     * Visualisation to be used to show glucose levels and correlation to diabetes
-* 
+* Biomarkers such as blood pressure and skin thickness will likely hold a low level of correlation for whether or not a patient has diabetes.
 
 ## Rationale
 * List your business requirements and a rationale to map them to the Data Visualisations and ML tasks
