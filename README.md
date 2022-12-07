@@ -82,13 +82,16 @@ The following hypothesis will help guide the direction of data analysis for the 
 
 ## Rationale
 * Business Requirement 1 - Correlation and Visualisation of Data
-    * Inspect the data relating to the biomarkers in the diabetes dataset
-    * Make use of a Correlation Study to help understand which variables are strongly linked to the outcome of diabetes
+    * Inspect the data relating to the variables in the diabetes dataset
     * Standardisation of data required to analyse due to 0 values on some variables which hold no worth
+    * Make use of a Correlation Study to help understand which variables are strongly linked to the outcome of diabetes
+    * Visualisations and the correlation study will be used to support the validation of hypothesis
 * Business Requirement 2 - Build a Machine Learning model
-    * Split data into two categories, training data and testing data
+    * Split data into two categories, training data and testing data.
+    * Be able to make predictions of the likeliness of diabetes
+    * Make use of a Support Vector Machine model to classify whether or not a patient is diabetic for use in the medical industry.
 * Business Requirement 3 - Optimise accuracy of ML tool
-    * Having trained the model, testing data will be used to determine the accuracy score
+    * Having trained the model, testing data will be used to determine the accuracy score for insight into how well the model is performing.
     * Fine tuning of the model with hyperparameters to increase accuracy score.
 * Business Requirement 4 - Creation of a Dashboard for user input
     * Creation of a user interface where a summarised description of model can be viewed
@@ -97,6 +100,11 @@ The following hypothesis will help guide the direction of data analysis for the 
 
 ## ML Business Case
 * A Machine Learning model is required to predict the outcome of a patient having diabetes or not.
++ Create a Machine Learning Model which satisfies the business requirement of predicting at a score of 0.75 or greater on both the training and test datasets. It will be able to make appropriate predictions on test data and any future data used by the client.
+* A Support Vector Machine model will be chosen to achieve the prediction due to it being a classifier model and can therefor classify whether or not a patient is diabetic or non-diabetic.
+* If the model is unable to reach an accuracy score of 0.75 then this will be deemed a fail.
+* The output of the model will be defined as whether the patient is given a prediction of diabetic or non-diabetic.
+* The dataset used for the training of the model is derived from a publicly available dataset on Kaggle, containing 768 rows and 9 feature sets. The target variable for the trainset is the 'Outcome' variable with 0 meaning non-diabetic and 1 meaning diabetic.
 
 
 ## Dashboard Design
@@ -109,23 +117,37 @@ The following hypothesis will help guide the direction of data analysis for the 
 
 
 ## Deployment
-### Heroku
 
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
+### Gitpod
+* The site and app was built in Gitpod with the dashboard being built with streamlit.
+* The site was then later deployed to Heroku for hosting.
+* The app.py file contains the code used to run the site.
+* Previewing of development was carried out continuously throughout using the streamlit run app.py command.
+* The Code Institute template for Heritage Housing Issues was forked and used for this project.
+
+### Heroku
+* The App live link is: https://pp5-diabetes-prediction.herokuapp.com/ 
 * The project was deployed to Heroku using the following steps.
 
 1. Log in to Heroku and create an App
 2. At the Deploy tab, select GitHub as the deployment method.
 3. Select your repository name and click Search. Once it is found, click Connect.
 4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly in case all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
+5. Make sure that the python version used in runtime.tct is compatible with the Heroku stack used for the app.
+5. Click the button Open App on the top of the page to access your App.
 
 
 ## Libraries
-* Here you should list the libraries you used in the project and provide example(s) of how you used these libraries.
+* Streamlit
+* Pandas
+* Numpy
+* Scikit-learn
+
 
 
 ## Credits 
+
+* Code Institutes template for Heritage Housing Issues was used to build off of.
 
 * In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 * You can break the credits section up into Content and Media, depending on what you have included in your project. 
