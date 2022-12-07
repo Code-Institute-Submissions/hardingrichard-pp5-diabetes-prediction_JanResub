@@ -35,26 +35,26 @@
 
 
 ## User Stories
-|As a |I want to |Satisfied? (Y/N)|
-|:----|:----|:----|
-|Client|Be able to get a prediction on whether a patient has diabetes|Y|
-|Client|Make use of a dashboard to easily input figures and have a resulting outcome|Y|
-|Client|See visualisation of data variables to make it easier to interpret|Y|
-|Client|See how biomarkers correlate to the likeliness of diabetes|Y|
-|Client|Have a brief summary of what each data column means for understanding data values|Y|
-|Client|Have a summary of the analysed data for better understanding|Y|
-|Client|Have access to a live website to easily access the dashboard at any time|Y|
-|Client|Understand the content of the data and where it is sourced|Y|
-|Client|See if the data was prepared in any way for modeling for better insight to the process|Y|
-|Client|See what the ratio used for the training of the machine learning model to better understand the tuning of the model|Y|
-|Client|Have an accuracy score of 75% or greater with prediction whether or not a patient has diabetes|Y|
-|Data Practitioner|Have a relevant dataset in order to conduct analysis and create a ML model|Y|
-|Data Practitioner|Be able to make predictions off of the dataset following the creation of a ML model|Y|
-|Data Practitioner|Be able to clean the dataset of any unusable or incomplete data for use with analysis and the machine learning model|Y|
-|Data Practitioner|Create a machine learning model for predicting the likeliness of diabetes|Y|
-|Data Practitioner|Be able to optimise the performance of the machine learning model used for a more accurate score|Y|
-|Data Practitioner|Create a dashboard to visualise the data and enable the end user to make use of future predictions|Y|
-|Data Practitioner|Have a live website where new dashboard implementations can be developed|Y|
+|No.|As a |I want to |Satisfied? (Y/N)|
+|:----|:----|:----|:----|
+|1.|Client|Be able to get a prediction on whether a patient has diabetes|Y|
+|2.|Client|Make use of a dashboard to easily input figures and have a resulting outcome|Y|
+|3.|Client|See visualisation of data variables to make it easier to interpret|Y|
+|4.|Client|See how biomarkers correlate to the likeliness of diabetes|Y|
+|5.|Client|Have a brief summary of what each data column means for understanding data values|Y|
+|6.|Client|Have a summary of the analysed data for better understanding|Y|
+|7.|Client|Have access to a live website to easily access the dashboard at any time|Y|
+|8.|Client|Understand the content of the data and where it is sourced|Y|
+|9.|Client|See if the data was prepared in any way for modeling for better insight to the process|Y|
+|10.|Client|See what the ratio used for the training of the machine learning model to better understand the tuning of the model|Y|
+|11.|Client|Have an accuracy score of 75% or greater with prediction whether or not a patient has diabetes|Y|
+|12.|Data Practitioner|Have a relevant dataset in order to conduct analysis and create a ML model|Y|
+|13.|Data Practitioner|Be able to make predictions off of the dataset following the creation of a ML model|Y|
+|14.|Data Practitioner|Be able to clean the dataset of any unusable or incomplete data for use with analysis and the machine learning model|Y|
+|15.|Data Practitioner|Create a machine learning model for predicting the likeliness of diabetes|Y|
+|16.|Data Practitioner|Be able to optimise the performance of the machine learning model used for a more accurate score|Y|
+|17.|Data Practitioner|Create a dashboard to visualise the data and enable the end user to make use of future predictions|Y|
+|18.|Data Practitioner|Have a live website where new dashboard implementations can be developed|Y|
 
 
 ## Business Requirements
