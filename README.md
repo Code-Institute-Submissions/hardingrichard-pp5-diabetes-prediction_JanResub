@@ -44,11 +44,15 @@ Diabetes is a growing disease which affects a large portion of the population ar
 ## Hypothesis
 The following hypothesis will help guide the direction of data analysis for the above dataset.
 * Based off of my understanding of diabetes, High blood sugar levels are likely to be a primary predictor of the outcome of a diabetes diagnosis.
-    * Visualisation to be used to show glucose levels and correlation to diabetes
+    * Visualisation to be used and correlation study to validate
 * I predict that Age will have an affect on the correlation of diabetes
+    * Visualisation to be used and correlation study to validate
 * I also predict that BMI may hold some weight in the prediction of diabetes
+    * Visualisation to be used and correlation study to validate
 * Biomarkers such as blood pressure and skin thickness will likely hold a low level of correlation for whether or not a patient has diabetes.
+    * Visualisation to be used and correlation study to validate
 * Due to the dataset being fairly small in size and splitting the data between train and test, may pose difficulties in achieving a high accuracy score.
+    * Experiment with Train/Test split ratios or potential use of other ML models to achieve a better score.
 
 ## Rationale
 * Business Requirement 1 - Correlation and Visualisation of Data
