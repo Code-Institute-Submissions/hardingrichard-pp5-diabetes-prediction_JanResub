@@ -32,6 +32,17 @@
 |Age|Age of the subject|21-81|int|
 |Outcome|Class variable of 0(500) or 1(268)|0-1|int|
 
+## User Stories
+|As a |I want to |Satisfied? (Y/N)|
+|:----|:----|:----|
+|Client|Be able to get a prediction on whether a patient has diabetes|Y|
+|Client|Make use of a dashboard to easily input figures and resulting outcome|Y|
+|Client|See visualisation of data to make it easier to interpret|Y|
+|Client|See how biomarkers correlate to the likeliness of diabetes|Y|
+|Client|Have an understanding of what each data column means when interpreting data|Y|
+|
+
+
 
 ## Business Requirements
 Diabetes is a growing disease which affects a large portion of the population around the world. Accurate and opportune predictions of diabetes is important due to the complications that it can pose on other life-threatening diseases. A medical center in Phoenix, Arizona is looking to improve their diagnoses of diabetes using the assistance of machine learning and investigating how best to use previous patient data in order to better predict whether or not future patients are likely to have diabetes.
