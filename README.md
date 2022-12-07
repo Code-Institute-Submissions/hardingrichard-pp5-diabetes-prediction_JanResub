@@ -20,7 +20,7 @@
 
 
 |Variable|Meaning|Units|Data Type|
-|:----|:----|:----|
+|:----|:----|:----|:----|
 |Pregnancies|Number of times pregnant|0-17|int|
 |Glucose|Plasma glucose concentration using a glucose tolerance test|0 - 199|int|
 |BloodPressure|Diastolic blood pressure (mm Hg)|0 - 122|int|
@@ -47,10 +47,12 @@ The following hypothesis will help guide the direction of data analysis for the 
 * Based off of my understanding of diabetes, High blood sugar levels are likely to be a primary predictor of the outcome of a diabetes diagnosis.
     * Visualisation to be used to show glucose levels and correlation to diabetes
 * Biomarkers such as blood pressure and skin thickness will likely hold a low level of correlation for whether or not a patient has diabetes.
-* The World Health Orginisation surveyed 
+* Due to the dataset being fairly small in size and splitting the data between train and test, may pose difficulties in achieving a high accuracy score.
 
 ## Rationale
 * List your business requirements and a rationale to map them to the Data Visualisations and ML tasks
+
+
 
 
 ## ML Business Case
