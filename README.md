@@ -2,15 +2,16 @@
 
 ## Table of Contents
 1. [Dataset Content](#dataset-content)
-2. [Business Requirements](#business-requirements)
-3. [Hypothesis](#hypothesis)
-4. [Rationale](#rationale)
-5. [ML Business Case](#ml-business-case)
-6. [Dashboard Design](#dashboard-design)
-7. [Bug fixes](#bug-fixes)
-8. [Deployment](#deployment)
-9. [Libraries](#libraries)
-10. [Credits](#credits)
+2. [User Stories](#user-stories)
+3. [Business Requirements](#business-requirements)
+4. [Hypothesis](#hypothesis)
+5. [Rationale](#rationale)
+6. [ML Business Case](#ml-business-case)
+7. [Dashboard Design](#dashboard-design)
+8. [Bug fixes](#bug-fixes)
+9. [Deployment](#deployment)
+10. [Libraries](#libraries)
+11. [Credits](#credits)
 
 ## Dataset Content
 * The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database).
