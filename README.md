@@ -36,10 +36,9 @@
 Diabetes is a growing disease which affects a large portion of the population around the world. Accurate and opportune predictions of diabetes is important due to the complications that it can pose on other life-threatening diseases. A medical center in Phoenix, Arizona is looking to improve their diagnoses of diabetes using the assistance of machine learning and investigating how best to use previous patient data in order to better predict whether or not future patients are likely to have diabetes.
 
 * 1 - The client is interested in discovering how various biomarkers in female patients correlate to the likeliness of developing diabetes. The client expects to better understand this by reviewing data visualizations of the biomarker variables.
-* 2 - The client is also interested in how these biomarkers can be used to predict the likeliness of the patient having diabetes.
-* 3 - The client requires a machine learning tool that their healthcare practitioners can use to identify whether a patient has diabetes.
-* 4 - The client expects an accuracy score of 75% or higher in predicting the outcome of diabetes.
-* 5 - The client expresses that the machine learning tool can be easily accessed via a dashboard with the ability to input patient data to produce a prediction for diagnosis which can be used to better support the patient.
+* 2 - The client requires a machine learning tool that their healthcare practitioners can use to identify whether a patient has diabetes.
+* 3 - The client expects an accuracy score of 75% or higher in predicting the outcome of diabetes.
+* 4 - The client expresses that the machine learning tool can be easily accessed via a dashboard with the ability to input patient data to produce a prediction for diagnosis which can be used to better support the patient.
 
 
 ## Hypothesis
@@ -50,8 +49,6 @@ The following hypothesis will help guide the direction of data analysis for the 
 * Due to the dataset being fairly small in size and splitting the data between train and test, may pose difficulties in achieving a high accuracy score.
 
 ## Rationale
-* List your business requirements and a rationale to map them to the Data Visualisations and ML tasks
-
 * Business Requirement 1 - Correlation and Visualisation of Data
     * Inspect the data relating to the biomarkers in the diabetes dataset
     * Make use of a Correlation Study to help understand which variables are strongly linked to the outcome of diabetes
