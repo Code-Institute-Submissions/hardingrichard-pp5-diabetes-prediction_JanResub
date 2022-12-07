@@ -13,6 +13,7 @@
 10. [Libraries](#libraries)
 11. [Credits](#credits)
 
+
 ## Dataset Content
 * The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database).
 * The dataset was originally from the National Institute of Diabetes and Digestive and Kidney Diseases.  
@@ -32,6 +33,7 @@
 |Age|Age of the subject|21-81|int|
 |Outcome|Class variable of 0(500) or 1(268)|0-1|int|
 
+
 ## User Stories
 |As a |I want to |Satisfied? (Y/N)|
 |:----|:----|:----|
@@ -45,7 +47,7 @@
 |Client|Understand the content of the data and where it is sourced|Y|
 |Client|See if the data was prepared in any way for modeling for better insight to the process|Y|
 |Client|See what the ratio used for the training of the machine learning model to better understand the tuning of the model|Y|
-|Client|See a score of how accurate the machine learning model predictions are|Y|
+|Client|Have an accuracy score of 75% or greater with prediction whether or not a patient has diabetes|Y|
 |Data Practitioner|Have a relevant dataset in order to conduct analysis and create a ML model|Y|
 |Data Practitioner|Be able to make predictions off of the dataset following the creation of a ML model|Y|
 |Data Practitioner|Be able to clean the dataset of any unusable or incomplete data for use with analysis and the machine learning model|Y|
@@ -53,7 +55,6 @@
 |Data Practitioner|Be able to optimise the performance of the machine learning model used for a more accurate score|Y|
 |Data Practitioner|Create a dashboard to visualise the data and enable the end user to make use of future predictions|Y|
 |Data Practitioner|Have a live website where new dashboard implementations can be developed|Y|
-
 
 
 ## Business Requirements
@@ -78,6 +79,7 @@ The following hypothesis will help guide the direction of data analysis for the 
 * Due to the dataset being fairly small in size and splitting the data between train and test, may pose difficulties in achieving a high accuracy score.
     * Experiment with Train/Test split ratios or potential use of other ML models to achieve a better score.
 
+
 ## Rationale
 * Business Requirement 1 - Correlation and Visualisation of Data
     * Inspect the data relating to the biomarkers in the diabetes dataset
@@ -96,14 +98,15 @@ The following hypothesis will help guide the direction of data analysis for the 
 ## ML Business Case
 * A Machine Learning model is required to predict the outcome of a patient having diabetes or not.
 
+
 ## Dashboard Design
 * List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items that your dashboard library supports.
 * Eventually, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but eventually you needed to use another plot type)
 
 
-
 ## Bug Fixes
 * You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not valid reason to leave bugs unfixed.
+
 
 ## Deployment
 ### Heroku
