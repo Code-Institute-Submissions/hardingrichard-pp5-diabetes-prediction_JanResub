@@ -52,7 +52,13 @@ The following hypothesis will help guide the direction of data analysis for the 
 ## Rationale
 * List your business requirements and a rationale to map them to the Data Visualisations and ML tasks
 
-
+* Business Requirement 1 - Correlation and Visualisation of Data
+    * Inspect the data relating to the biomarkers in the diabetes dataset
+    * Make use of a Correlation Study to help understand which variables are strongly linked to the outcome of diabetes
+    * 
+* Business Requirement 2 - Build a Machine Learning model
+* Business Requirement 3 - Optimise accuracy of ML tool
+* Business Requirement 4 - Creation of a Dashboard for user input
 
 
 ## ML Business Case
