@@ -169,4 +169,5 @@ The following hypothesis will help guide the direction of data analysis for the 
 * Coursera learning course on ['Build a Machine Learning Web App with Streamlit and Python'](https://www.coursera.org/projects/machine-learning-streamlit-python)
 * A Library of Youtube tutorials and learning material used for additional guidance with the project, offered by [Siddhardhan](https://www.youtube.com/@Siddhardhan/videos) which inspired the idea of using a Support Vector Machine model to classify the data.
 * National Library of Medicine Article on ['Predicting Type 2 Diabetes Using Logistic regression and Machine Learning Approaches'](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9018179/) was used to gain an understanding for potential approaches which could be used for the project.
+* Markdown cheatsheet from [Adam Pritchard](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) was referred to as a refresher and ease of reference for the different commands that can be used.
 
