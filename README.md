@@ -45,6 +45,8 @@ Diabetes is a growing disease which affects a large portion of the population ar
 The following hypothesis will help guide the direction of data analysis for the above dataset.
 * Based off of my understanding of diabetes, High blood sugar levels are likely to be a primary predictor of the outcome of a diabetes diagnosis.
     * Visualisation to be used to show glucose levels and correlation to diabetes
+* I predict that Age will have an affect on the correlation of diabetes
+* I also predict that BMI may hold some weight in the prediction of diabetes
 * Biomarkers such as blood pressure and skin thickness will likely hold a low level of correlation for whether or not a patient has diabetes.
 * Due to the dataset being fairly small in size and splitting the data between train and test, may pose difficulties in achieving a high accuracy score.
 
@@ -64,8 +66,7 @@ The following hypothesis will help guide the direction of data analysis for the 
 
 
 ## ML Business Case
-* In the previous bullet, you potentially visualised an ML task to answer a business requirement. You should frame the business case using the method we covered in the course 
-
+* A Machine Learning model is required to predict the outcome of a patient having diabetes or not.
 
 ## Dashboard Design
 * List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items that your dashboard library supports.
