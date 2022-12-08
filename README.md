@@ -135,6 +135,7 @@ The following hypothesis will help guide the direction of data analysis for the 
 |Visualisations wouldn't display when running cells.|Used `%matplotlib inline` to make output appear and be stored within the notebook.|
 |ModuleNotFoundError: No module named 'ipywidgets' when trying to load `pandas_profiling ProfileReport`.|Fix was found on [stackoverflow](https://stackoverflow.com/questions/34364681/no-module-named-ipywidgets-error-when-running-ipyhon-widgets) where it was the case of needing to do a pip install of ipywidgets before running the ProfileReport.|
 |AttributeError: ‘numpy.ndarray’ object has no attribute ‘to_csv’ when trying to push test/train .csv file to the repo|Fixed by converting to a pandas dataframe using the following code `pd.DataFrame(x_train).to_csv("outputs/datasets/cleaned/x_train_cleaned.csv", index=False)`|
+|Deployment to Heroku Failed "Requested runtime 'python-3.8.15' is not available for this stack (heroku-22)."|Installed heroku CLI and used the following command to set the stack to Heroku-20 `heroku stack:set heroku-20`|
 
 
 ## Deployment
