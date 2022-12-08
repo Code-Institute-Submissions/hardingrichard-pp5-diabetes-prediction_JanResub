@@ -129,7 +129,9 @@ The following hypothesis will help guide the direction of data analysis for the 
 
 
 ## Bug Fixes
-* You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not valid reason to leave bugs unfixed.
+|Bug|Fix|
+|:----|:----|
+|Visualisations wouldn't display when running cells|Used `%matplotlib inline` to make output appear and be stored within the notebook|
 
 
 ## Deployment
