@@ -129,9 +129,10 @@ The following hypothesis will help guide the direction of data analysis for the 
 
 
 ## Bug Fixes
-|Bug|Fix|
+|**Bug**|**Fix**|
 |:----|:----|
-|Visualisations wouldn't display when running cells|Used `%matplotlib inline` to make output appear and be stored within the notebook|
+|Visualisations wouldn't display when running cells.|Used `%matplotlib inline` to make output appear and be stored within the notebook.|
+|ModuleNotFoundError: No module named 'ipywidgets' when trying to load `pandas_profiling ProfileReport`.|Fix was found on [stackoverflow](https://stackoverflow.com/questions/34364681/no-module-named-ipywidgets-error-when-running-ipyhon-widgets) where it was the case of needing to do a pip install of ipywidgets before running the ProfileReport.|
 
 
 ## Deployment
