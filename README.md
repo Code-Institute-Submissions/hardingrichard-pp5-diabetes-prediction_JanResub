@@ -133,6 +133,7 @@ The following hypothesis will help guide the direction of data analysis for the 
 |:----|:----|
 |Visualisations wouldn't display when running cells.|Used `%matplotlib inline` to make output appear and be stored within the notebook.|
 |ModuleNotFoundError: No module named 'ipywidgets' when trying to load `pandas_profiling ProfileReport`.|Fix was found on [stackoverflow](https://stackoverflow.com/questions/34364681/no-module-named-ipywidgets-error-when-running-ipyhon-widgets) where it was the case of needing to do a pip install of ipywidgets before running the ProfileReport.|
+|AttributeError: ‘numpy.ndarray’ object has no attribute ‘to_csv’ when trying to push test/train .csv file to the repo|Fixed by converting to a pandas dataframe using the following code `pd.DataFrame(x_train).to_csv("outputs/datasets/cleaned/x_train_cleaned.csv", index=False)`|
 
 
 ## Deployment
@@ -161,7 +162,8 @@ The following hypothesis will help guide the direction of data analysis for the 
 * Pandas
 * Numpy
 * Scikit-learn
-
+* Seaborn
+* MatPlotLib
 
 
 ## Credits 
@@ -170,10 +172,15 @@ The following hypothesis will help guide the direction of data analysis for the 
 * Increasing understanding using Udemy learning course on ['Learning Python for Data Analysis and Visualization'](https://www.udemy.com/course/learning-python-for-data-analysis-and-visualization/) by Jose Portilla
 * Increasing understanding using Udemy learning course on ['Python for Data Science and Machine Learning Bootcamp'](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/) by Jose Portilla where aditional learning took place for Support Vector Machines
 * Coursera learning course on ['Build a Machine Learning Web App with Streamlit and Python'](https://www.coursera.org/projects/machine-learning-streamlit-python)
-* A Library of Youtube tutorials and learning material used for additional guidance with the project, offered by [Siddhardhan](https://www.youtube.com/@Siddhardhan/videos) which inspired the idea of using a Support Vector Machine model to classify the data.
+* A Library of Youtube tutorials and learning material used for additional guidance with the project, offered by [Siddhardhan](https://www.youtube.com/@Siddhardhan/videos) which inspired the idea of using a Support Vector Machine model to classify the data. The [tutorial](https://www.youtube.com/watch?v=xUE7SjVx9bQ) on a diabetes prediction project using machine learning was very helpful.
 * National Library of Medicine Article on ['Predicting Type 2 Diabetes Using Logistic regression and Machine Learning Approaches'](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9018179/) was used to gain an understanding for potential approaches which could be used for the project.
 * Markdown cheatsheet from [Adam Pritchard](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) was referred to as a refresher and ease of reference for the different commands that can be used.
 * Stackoverflow for fixing an issue where [No module named 'ipywidgets'](https://stackoverflow.com/questions/34364681/no-module-named-ipywidgets-error-when-running-ipyhon-widgets)
 * Resource used for learning about [%matplotlib inline](https://pythonguides.com/what-is-matplotlib-inline/)
 * Inspiration was taken from a [Kaggle Notebook](https://www.kaggle.com/code/sztuanakurun/diabetes-classification-data-visualization) for the order of importance and external code was modified to suit the needs of the Correlation study.
 * External code sourced from [towardsdatascience](https://towardsdatascience.com/pima-indian-diabetes-prediction-7573698bd5fe) and was modified to be appropriate for dataset with imputing zero value data.
+* stackoverflow answer for a bug fix converting a numpy array to a pandas dataframe relating to an issue i had with [AttributeError: 'numpy.ndarray' object has no attribute 'to_csv'](https://stackoverflow.com/questions/56600918/how-do-numpy-ndarray-object-do-not-numpy-ndarray-object)
+
+## Acknowledgements
+* My mentor Mo Shami as always for his words of support, time, and help.
+* Niel_ci for his quick response and help with an issue I had.
