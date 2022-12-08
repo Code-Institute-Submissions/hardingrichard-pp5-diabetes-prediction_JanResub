@@ -161,6 +161,7 @@ The following hypothesis will help guide the direction of data analysis for the 
 ## Libraries
 * Streamlit
 * Pandas
+* pandas_profiling
 * Numpy
 * Scikit-learn
 * Seaborn
