@@ -12,6 +12,7 @@
 9. [Deployment](#deployment)
 10. [Libraries](#libraries)
 11. [Credits](#credits)
+12. [Acknowledgements](#acknowledgements)
 
 
 ## Dataset Content
