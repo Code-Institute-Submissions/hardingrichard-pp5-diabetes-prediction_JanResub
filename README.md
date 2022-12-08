@@ -175,3 +175,4 @@ The following hypothesis will help guide the direction of data analysis for the 
 * Markdown cheatsheet from [Adam Pritchard](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) was referred to as a refresher and ease of reference for the different commands that can be used.
 * Stackoverflow for fixing an issue where [No module named 'ipywidgets'](https://stackoverflow.com/questions/34364681/no-module-named-ipywidgets-error-when-running-ipyhon-widgets)
 * Resource used for learning about [%matplotlib inline](https://pythonguides.com/what-is-matplotlib-inline/)
+* Inspiration was taken from a [Kaggle Notebook](https://www.kaggle.com/code/sztuanakurun/diabetes-classification-data-visualization) for the order of importance and external code was modified to suit the needs of the Correlation study.
