@@ -172,6 +172,7 @@ The following hypothesis will help guide the direction of data analysis for the 
 ## Credits 
 * Code Institutes template for ['Heritage Housing Issues'](https://github.com/Code-Institute-Solutions/milestone-project-heritage-housing-issues) was used to build off of.
 * Guidance for how to approach the project taken from Code Institutes 'Churnometer' project walkthrough, specifically the Data cleaning notebook section.
+* Code Institutes Feature Engine Unit 9: Custom Functions was used and modified for requirements for quick feature engineering code in notebook 03-FeatureEngineering.ipynb
 * Increasing understanding using Udemy learning course on ['Learning Python for Data Analysis and Visualization'](https://www.udemy.com/course/learning-python-for-data-analysis-and-visualization/) by Jose Portilla
 * Increasing understanding using Udemy learning course on ['Python for Data Science and Machine Learning Bootcamp'](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/) by Jose Portilla where aditional learning took place for Support Vector Machines
 * Coursera learning course on ['Build a Machine Learning Web App with Streamlit and Python'](https://www.coursera.org/projects/machine-learning-streamlit-python)
