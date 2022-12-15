@@ -137,6 +137,7 @@ The following hypothesis will help guide the direction of data analysis for the 
 |AttributeError: ‘numpy.ndarray’ object has no attribute ‘to_csv’ when trying to push test/train .csv file to the repo|Fixed by converting to a pandas dataframe using the following code `pd.DataFrame(x_train).to_csv("outputs/datasets/cleaned/x_train_cleaned.csv", index=False)`|
 |Deployment to Heroku Failed "Requested runtime 'python-3.8.15' is not available for this stack (heroku-22)."|Installed heroku CLI and used the following command to set the stack to Heroku-20 `heroku stack:set heroku-20`|
 |/workspace/.pip-modules/lib/python3.8/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel(). return f(*args, **kwargs) SVC(kernel='linear')|Fix was found on [stackoverflow](https://stackoverflow.com/questions/34165731/a-column-vector-y-was-passed-when-a-1d-array-was-expected) added `.values.ravel()` to y_train for SVC classifier|
+|OSError: Cannot save file into a non-existent directory: '{file_path}'|This was due to a typo where the 'f' was left off at the start to make it a formatted string literal|
 
 
 ## Deployment
