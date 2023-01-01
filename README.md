@@ -122,11 +122,12 @@ The following hypothesis will help guide the direction of data analysis for the 
 
 ## Dashboard Design
 Below are the following pages detailed for the Streamlit App User Interface which consist of 5 pages:
+
 * Page 1 - Introduction
 * Page 2 - Correlation Study
 * Page 3 - Hypothesis
 * Page 4 - Machine Learning Model
-* Page 5 - Prediction
+* Page 5 - Diabetes Prediction
 
 ##### Page 1: Introduction
 * This page summarises the business case
@@ -151,7 +152,19 @@ Below are the following pages detailed for the Streamlit App User Interface whic
     * *I predict that Age will have an affect on the correlation of diabetes*
     * *Biomarkers such as blood pressure and skin thickness will likely hold a low level of correlation for whether or not a patient has diabetes.*
 
+##### Page 4: Machine Learning Model
+* This page will display the Machine Learning Model for the Data Practitioner
+* This page will cover business requirement 2 for building a machine learning model
+* This page will also cover business requirement 3 for the accuracy of the machine learning model
+* The feature set used to fit the model and feature importance will be displayed
+* The performance of the machine learning model will be displayed by showing the accuracy score for both the train and test datasets
+* Confirmation of whether the data meets the business requirement of having a 75% or above accuracy
 
+##### Page 5: Diabetes Outcome Prediction
+* This page is intended to cover the business requirement 4 for having an interactive dashboard where the user can input data to form a prediction for the outcome of diabetes
+* This page will contain numerous interactive input widgets such as number input widgets for data entry
+* An interactive button widget for the user to press to input the diabetes dataset to the machine learning pipeline for predicting the outcome of diabetes
+* The page will display a generated message as a result of pressing the button widget informing the user of the predicted outcome of Diabetic or Non-Diabetic
 
 
 ## Bug Fixes
