@@ -164,13 +164,16 @@ The following hypothesis will help guide the direction of data analysis for the 
 
 
 ## Libraries
-* Streamlit
-* Pandas
-* pandas_profiling
-* Numpy
-* Scikit-learn
-* Seaborn
-* MatPlotLib
+Various Libraries were used in the project for creating a ML model to predict the outcome of diabetes. These libraries can be seen below and the versions are also found in the requirements.txt file within the repository. 
+* Streamlit - used to create a dashboard and interactive UI for predicting diabetes outcome
+* Pandas - used to convert CSV data into a Pandas DataFrame for manipulation and data management
+* pandas_profiling - used to inspect the datasets features to understand the data for cleaning and visualisation
+* Numpy - used to generate an array of figures for the feature sets which was then used for correlation and visualisations
+* Scikit-learn - used to train and evaluate the Machine Learning model for predicting diabetes outcome
+* Seaborn - used for creating the data visualisations such as plot graphs, violin plots and heatmaps
+* MatPlotLib - used for creating data visualisations for the plots
+* Jupyter - used as the environment for creating notebooks to collect, inspect, clean and visualise the data as well as for the creation of the ML model
+* Custom Support Vector Machine Model was created and used for the ML Model found in the svm_model.py file
 
 
 ## Credits 
