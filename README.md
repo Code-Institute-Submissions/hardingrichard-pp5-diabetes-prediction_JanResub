@@ -44,26 +44,25 @@ The project for predicting diabetes can be divided into 4 epics which are as fol
 
 The user stories which relate to the above can be seen below in the table.
 
-|No.|As a |I want to |Satisfied? (Y/N)|
-|:----|:----|:----|:----|
-|1.|Client|Be able to get a prediction on whether a patient has diabetes|Y|
-|2.|Client|Make use of a dashboard to easily input figures and have a resulting outcome|Y|
-|3.|Client|See visualisation of data variables to make it easier to interpret|Y|
-|4.|Client|See how biomarkers correlate to the likeliness of diabetes|Y|
-|5.|Client|Have a brief summary of what each data column means for understanding data values|Y|
-|6.|Client|Have a summary of the analysed data for better understanding|Y|
-|7.|Client|Have access to a live website to easily access the dashboard at any time|Y|
-|8.|Client|Understand the content of the data and where it is sourced|Y|
-|9.|Client|See if the data was prepared in any way for modeling for better insight to the process|Y|
-|10.|Client|See what the ratio used for the training of the machine learning model to better understand the tuning of the model|Y|
-|11.|Client|Have an accuracy score of 75% or greater with prediction whether or not a patient has diabetes|Y|
-|12.|Data Practitioner|Have a relevant dataset in order to conduct analysis and create a ML model|Y|
-|13.|Data Practitioner|Be able to make predictions off of the dataset following the creation of a ML model|Y|
-|14.|Data Practitioner|Be able to clean the dataset of any unusable or incomplete data for use with analysis and the machine learning model|Y|
-|15.|Data Practitioner|Create a machine learning model for predicting the likeliness of diabetes|Y|
-|16.|Data Practitioner|Be able to optimise the performance of the machine learning model used for a more accurate score|Y|
-|17.|Data Practitioner|Create a dashboard to visualise the data and enable the end user to make use of future predictions|Y|
-|18.|Data Practitioner|Have a live website where new dashboard implementations can be developed|Y|
+|No.|As a |I want to |Business Requirement Covered |Satisfied? (Y/N)|
+|:----|:----|:----|:----|:----|
+|1.|Client|Be able to get a prediction on whether a patient has diabetes|Business Requirement 2|Y|
+|2.|Client|Make use of a dashboard to easily input figures and have a resulting outcome|Business Requirement 4|Y|
+|3.|Client|See visualisation of data variables to make it easier to interpret|Business Requirement 1|Y|
+|4.|Client|See how biomarkers correlate to the likeliness of diabetes|Business Requirement 1|Y|
+|5.|Client|Have a brief summary of what each data column means for understanding data values|Business Requirement 1, 4|Y|
+|6.|Client|Have a summary of the analysed data for better understanding|Business Requirement 4|Y|
+|7.|Client|Have access to a live website to easily access the dashboard at any time|Business Requirement 4|Y|
+|8.|Client|Understand the content of the data and where it is sourced|Business Requirement 1|Y|
+|9.|Client|See if the data was prepared in any way for modeling for better insight to the process|Business Requirement 1, 2|Y|
+|10.|Client|See what the ratio used for the training of the machine learning model to better understand the tuning of the model|Business Requirement 2, 3|Y|
+|11.|Client|Have an accuracy score of 75% or greater with prediction whether or not a patient has diabetes|Business Requirement 3|Y|
+|12.|Data Practitioner|Have a relevant dataset in order to conduct analysis and create a ML model|Business Requirement 1|Y|
+|13.|Data Practitioner|Be able to make predictions off of the dataset following the creation of a ML model|Business Requirement 2, 4|Y|
+|14.|Data Practitioner|Be able to clean the dataset of any unusable or incomplete data for use with analysis and the machine learning model|Business Requirement 1|Y|
+|15.|Data Practitioner|Create a machine learning model for predicting the likeliness of diabetes|Business Requirement 2|Y|
+|16.|Data Practitioner|Create a dashboard to visualise the data and enable the end user to make use of future predictions|Business Requirement 4|Y|
+|17.|Data Practitioner|Have a live website where new dashboard implementations can be developed|Business Requirement 4|Y|
 
 
 ## Business Requirements
@@ -93,15 +92,14 @@ The following hypothesis will help guide the direction of data analysis for the 
 * Business Requirement 1 - Correlation and Visualisation of Data
     * Inspect the data relating to the variables in the diabetes dataset
     * Standardisation of data required to analyse due to 0 values on some variables which hold no worth
-    * Make use of a Correlation Study to help understand which variables are strongly linked to the outcome of diabetes
-    * Visualisations and the correlation study will be used to support the validation of hypothesis
+    * Make use of a Correlation Study to help understand which variables are linked to the outcome of diabetes
+    * Visualisations and the correlation study will be used to support the validation
 * Business Requirement 2 - Build a Machine Learning model
     * Split data into two categories, training data and testing data.
     * Be able to make predictions of the likeliness of diabetes
     * Make use of a Support Vector Machine model to classify whether or not a patient is diabetic for use in the medical industry.
-* Business Requirement 3 - Optimise accuracy of ML tool
+* Business Requirement 3 - Accuracy of ML tool
     * Having trained the model, testing data will be used to determine the accuracy score for insight into how well the model is performing.
-    * Fine tuning of the model with hyperparameters to increase accuracy score.
 * Business Requirement 4 - Creation of a Dashboard for user input
     * Creation of a user interface where a summarised description of model can be viewed
     * Allow for manual data input for the model to predict diabetes outcome
