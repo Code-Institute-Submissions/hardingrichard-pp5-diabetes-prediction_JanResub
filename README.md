@@ -192,6 +192,7 @@ Various Libraries were used in the project for creating a ML model to predict th
 * External code sourced from [towardsdatascience](https://towardsdatascience.com/pima-indian-diabetes-prediction-7573698bd5fe) and was modified to be appropriate for dataset with imputing zero value data.
 * stackoverflow answer for a bug fix converting a numpy array to a pandas dataframe relating to an issue i had with [AttributeError: 'numpy.ndarray' object has no attribute 'to_csv'](https://stackoverflow.com/questions/56600918/how-do-numpy-ndarray-object-do-not-numpy-ndarray-object)
 * Stackoverflow answer for [Retaining column headers after scikit-learn](https://stackoverflow.com/questions/29586323/how-to-retain-column-headers-of-data-frame-after-pre-processing-in-scikit-learn)
+* Streamlit [cheatsheet](https://docs.streamlit.io/library/cheatsheet) used for reference with creation of streamlit app pages
 
 ## Acknowledgements
 * My mentor Mo Shami as always for his words of support, time, and help.
