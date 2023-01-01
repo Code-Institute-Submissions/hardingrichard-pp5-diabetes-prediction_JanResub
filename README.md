@@ -35,6 +35,15 @@
 |Outcome|Class variable of 0(500) or 1(268)|0-1|int|
 
 
+## Business Requirements
+Diabetes is a growing disease which affects a large portion of the population around the world. Accurate and opportune predictions of diabetes is important due to the complications that it can pose on other life-threatening diseases. A medical center in Phoenix, Arizona is looking to improve their diagnoses of diabetes using the assistance of machine learning and investigating how best to use previous patient data in order to better predict whether or not future patients are likely to have diabetes.
+
+* 1 - The client is interested in discovering how various biomarkers in female patients correlate between those with diabetes and without diabetes. The client expects to better understand this by reviewing data visualizations of the biomarker variables.
+* 2 - The client requires a machine learning tool that their healthcare practitioners can use to identify whether a patient has diabetes.
+* 3 - The client expects an accuracy score of 75% or higher in predicting the outcome of diabetes.
+* 4 - The client expresses that the machine learning tool can be easily accessed via a dashboard with the ability to input patient data to produce a prediction for diagnosis which can be used to better support the patient.
+
+
 ## User Stories
 The project for predicting diabetes can be divided into 4 epics which are as follows:
 * The collection of the data
@@ -63,15 +72,6 @@ The user stories which relate to the above can be seen below in the table.
 |15.|Data Practitioner|Create a machine learning model for predicting the likeliness of diabetes|Business Requirement 2|Y|
 |16.|Data Practitioner|Create a dashboard to visualise the data and enable the end user to make use of future predictions|Business Requirement 4|Y|
 |17.|Data Practitioner|Have a live website where new dashboard implementations can be developed|Business Requirement 4|Y|
-
-
-## Business Requirements
-Diabetes is a growing disease which affects a large portion of the population around the world. Accurate and opportune predictions of diabetes is important due to the complications that it can pose on other life-threatening diseases. A medical center in Phoenix, Arizona is looking to improve their diagnoses of diabetes using the assistance of machine learning and investigating how best to use previous patient data in order to better predict whether or not future patients are likely to have diabetes.
-
-* 1 - The client is interested in discovering how various biomarkers in female patients correlate between those with diabetes and without diabetes. The client expects to better understand this by reviewing data visualizations of the biomarker variables.
-* 2 - The client requires a machine learning tool that their healthcare practitioners can use to identify whether a patient has diabetes.
-* 3 - The client expects an accuracy score of 75% or higher in predicting the outcome of diabetes.
-* 4 - The client expresses that the machine learning tool can be easily accessed via a dashboard with the ability to input patient data to produce a prediction for diagnosis which can be used to better support the patient.
 
 
 ## Hypothesis
