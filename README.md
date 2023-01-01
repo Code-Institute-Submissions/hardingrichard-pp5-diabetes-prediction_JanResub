@@ -94,15 +94,19 @@ The following hypothesis will help guide the direction of data analysis for the 
     * Standardisation of data required to analyse due to 0 values on some variables which hold no worth
     * Make use of a Correlation Study to help understand which variables are linked to the outcome of diabetes
     * Visualisations and the correlation study will be used to support the validation
+    * The Correlation Study and Feature Engineering notebooks detail these business requirements.
 * Business Requirement 2 - Build a Machine Learning model
     * Split data into two categories, training data and testing data.
     * Be able to make predictions of the likeliness of diabetes
     * Make use of a Support Vector Machine model to classify whether or not a patient is diabetic for use in the medical industry.
+    * The Feature Engineering and Modeling Evaluation notebooks cover these business requirements.
 * Business Requirement 3 - Accuracy of ML tool
     * Having trained the model, testing data will be used to determine the accuracy score for insight into how well the model is performing.
+    * The Modeling Evaluation notebook details this business requirement.
 * Business Requirement 4 - Creation of a Dashboard for user input
     * Creation of a user interface where a summarised description of model can be viewed
     * Allow for manual data input for the model to predict diabetes outcome
+    * The streamlit app pages cover this business requirement.
 
 
 ## ML Business Case
