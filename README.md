@@ -121,14 +121,37 @@ The following hypothesis will help guide the direction of data analysis for the 
 
 
 ## Dashboard Design
+Below are the following pages detailed for the Streamlit App User Interface which consist of 5 pages:
 * Page 1 - Introduction
 * Page 2 - Correlation Study
 * Page 3 - Hypothesis
 * Page 4 - Machine Learning Model
 * Page 5 - Prediction
 
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items that your dashboard library supports.
-* Eventually, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but eventually you needed to use another plot type)
+##### Page 1: Introduction
+* This page summarises the business case
+* Details the business requirements
+* Displays Dataset information and explanations for the feature sets in a table format
+
+##### Page 2: Correlation Study
+* This page shows the correlation study for the diabetes outcome from the notebook 02-CorrelationStudy.ipynb
+* This page is intended to answer the business requirement 1 for the Correlation and Visualisation of data.
+* Post-Data analysis determined that the page will contain:
+    * The business requirement - Correlation and Visualisation of Data
+    * A Checkbox for the inspection of data involving the number of rows and columns of the dataset
+    * Visualisation of the correlated variables in form of heatmap
+    * Checkbox for the Visualisation of individual plots for the feature sets
+    * Written conclusion for the correlated variables
+
+##### Page 3: Hypothesis
+* This page will cover the project hypotheses posed at the start of the project
+* This page partly covers the business requirement 1 for discovering how biomarkers correlate with the outcome of diabetes
+* Post data analysis the page determined the confirmation of the following hypotheses:
+    * *Based off of my understanding of diabetes, High blood sugar levels are likely to be a primary predictor of the outcome of a diabetes diagnosis.*
+    * *I predict that Age will have an affect on the correlation of diabetes*
+    * *Biomarkers such as blood pressure and skin thickness will likely hold a low level of correlation for whether or not a patient has diabetes.*
+
+
 
 
 ## Bug Fixes
