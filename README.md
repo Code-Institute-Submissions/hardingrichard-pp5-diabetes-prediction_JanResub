@@ -89,7 +89,7 @@ The following hypothesis will help guide the direction of data analysis for the 
     * Experiment with Train/Test split ratios or potential use of other ML models to achieve a better score.
 
 
-## Rationale
+## Rationale to map the business requirements to the Data Visualisations and ML tasks
 * Business Requirement 1 - Correlation and Visualisation of Data
     * Inspect the data relating to the variables in the diabetes dataset
     * Standardisation of data required to analyse due to 0 values on some variables which hold no worth
