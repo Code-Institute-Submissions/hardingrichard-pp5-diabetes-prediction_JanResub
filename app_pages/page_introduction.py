@@ -18,6 +18,9 @@ def page_introduction_body():
         f"investigating how best to use previous patient data in order to "
         f"better predict whether or not future patients are likely to have "
         f"diabetes. \n"
+    )
+    st.success(
+        f"### Business Requirements:"
         f"\n This project will consist of 4 business requirements seen below: \n"
         f"\n 1. The client is interested in discovering how various "
         f"biomarkers in female patients correlate between those with diabetes "

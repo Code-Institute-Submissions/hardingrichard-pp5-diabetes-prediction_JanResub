@@ -1,4 +1,6 @@
 # Diabetes Prediction
+The Diabetes Predictor is a Machine Learning project that assists healthcare professionals in providing a prediction on whether or not a patient has diabetes using data inputs. The dashboard for the Diabetes Predictor is hosted on Heroku and can be accessed [HERE](https://pp5-diabetes-prediction.herokuapp.com/)
+![Example image](docs/screenshots/dashboard_example.png)
 
 ## Table of Contents
 1. [Dataset Content](#dataset-content)
