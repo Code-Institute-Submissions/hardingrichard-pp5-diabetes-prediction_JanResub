@@ -9,7 +9,7 @@ from app_pages.page_machine_learning_model import page_machine_learning_model_bo
 from app_pages.page_diabetes_prediction import page_diabetes_prediction_body
 
 # Creates an instance of the app
-app = MultiPage(app_name = "Diabetes Prediction")
+app = MultiPage(app_name = "Diabetes Prediction Project")
 
 # App pages for the dashboard in the sidebar
 app.add_page("Introduction", page_introduction_body)
