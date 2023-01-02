@@ -5,7 +5,7 @@ def page_introduction_body():
     """
     Function which will display the body of the project introduction page
     """
-
+    # Information can be found in the README file under "Dataset Content"
     st.write('## Project Introduction:')
     st.success(
         f"\n Diabetes is a growing disease which affects a large portion "
@@ -66,3 +66,83 @@ def page_introduction_body():
         f"\n and lastly also a target variable: \n"
         f"    * Outcome (indicator for whether the patient has diabetes) \n"
     )
+
+    # Displays a table of the dataset variables using a HTML string
+    st.markdown(html_string, unsafe_allow_html=True)
+
+html_string = """<details>
+                <summary>Table of Diabetes Dataset</summary>
+                <br>
+                <table>
+                <thead>
+                <tr>
+                <th style="text-align:left">Variable</th>
+                <th style="text-align:left">Meaning</th>
+                <th style="text-align:left">Units</th>
+                <th style="text-align:left">Data Type</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <td style="tex-align:left">Pregnancies</td>
+                <td style="tex-align:left">Number of times pregnant</td>
+                <td style="tex-align:left">0 - 17</td>
+                <td style="tex-align:left">int</td>
+                </tr>
+                <tr>
+                <td style="tex-align:left">Glucose</td>
+                <td style="tex-align:left">
+                Plasma glucose concentration using a glucose tolerance test
+                </td>
+                <td style="tex-align:left">0 - 199</td>
+                <td style="tex-align:left">int</td>
+                </tr>
+                <tr>
+                <td style="tex-align:left">BloodPressure</td>
+                <td style="tex-align:left">Diastolic blood pressure (mm Hg)</td>
+                <td style="tex-align:left">0 - 122</td>
+                <td style="tex-align:left">int</td>
+                </tr>
+                <tr>
+                <td style="tex-align:left">SkinThickness</td>
+                <td style="tex-align:left">Tricep skin fold thickness (mm)</td>
+                <td style="tex-align:left">0 - 99</td>
+                <td style="tex-align:left">int</td>
+                </tr>
+                <tr>
+                <td style="tex-align:left">Insulin</td>
+                <td style="tex-align:left">2-hour serum insulin (mu U/ml)</td>
+                <td style="tex-align:left">0 - 846</td>
+                <td style="tex-align:left">int</td>
+                </tr>
+                <tr>
+                <td style="tex-align:left">BMI</td>
+                <td style="tex-align:left">Body Mass Index (kg/m^2)</td>
+                <td style="tex-align:left">0 - 67.1</td>
+                <td style="tex-align:left">float</td>
+                </tr>
+                <tr>
+                <td style="tex-align:left">DiabetesPedigreeFunction</td>
+                <td style="tex-align:left">
+                Scores likeliness of diabetes based on family history
+                </td>
+                <td style="tex-align:left">0.08 - 2.42</td>
+                <td style="tex-align:left">float</td>
+                </tr>
+                <tr>
+                <td style="tex-align:left">Age</td>
+                <td style="tex-align:left">Age of the subject in years</td>
+                <td style="tex-align:left">21 - 81</td>
+                <td style="tex-align:left">int</td>
+                </tr>
+                <tr>
+                <td style="tex-align:left">Outcome</td>
+                <td style="tex-align:left">
+                Class variable of 0(500) or 1(268)
+                </td>
+                <td style="tex-align:left">0 - 1</td>
+                <td style="tex-align:left">int</td>
+                </tr>
+                </tbody>
+                </table>
+                """
