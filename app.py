@@ -1,4 +1,4 @@
-import streamlist as st
+import streamlit as st
 from app_pages.multipage import MultiPage
 
 # Loads scripts for the dashboard pages
