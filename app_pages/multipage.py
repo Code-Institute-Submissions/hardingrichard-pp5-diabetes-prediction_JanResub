@@ -14,7 +14,7 @@ class MultiPage:
     
     # Function for adding pages
     def add_page(self, title, func) -> None:
-        self.pages.append({'title': title, 'function': func})
+        self.pages.append({"title": title, "function": func})
     
     # Creates a new instance in the sidebar with the page title
     def run(self):

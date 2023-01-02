@@ -5,6 +5,7 @@ def page_introduction_body():
     """
     Function which will display the body of the project introduction page
     """
+    
     # Information can be found in the README file under "Dataset Content"
     st.write('## Project Introduction:')
     st.success(
