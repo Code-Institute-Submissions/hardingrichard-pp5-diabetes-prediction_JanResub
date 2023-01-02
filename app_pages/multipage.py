@@ -12,11 +12,11 @@ class MultiPage:
             page_icon = '📄' # Sourced from the following website: https://twemoji.maxcdn.com/v/latest/svg/1f4c4.svg
         )
     
-    # Function for creeating a new page
+    # Function for adding pages
     def add_page(self, title, func) -> None:
         self.pages.append({'title': title, 'function': func})
     
-    # Creates a new instance in the sidebar with the new page title
+    # Creates a new instance in the sidebar with the page title
     def run(self):
         st.title(self.app_name)
         page = st.sidebar.radio('Contents', self.pages, format_func = lambda page: page['title'])

@@ -11,7 +11,7 @@ from app_pages.page_diabetes_prediction import page_diabetes_prediction_body
 # Creates an instance of the app
 app = MultiPage(app_name = "Diabetes Prediction")
 
-# Create app pages for the dashboard in the sidebar
+# App pages for the dashboard in the sidebar
 app.add_page("Introduction", page_introduction_body)
 app.add_page("Diabetes Correlation Study", page_correlation_study_body)
 app.add_page("Project Hypothesis", page_hypothesis_body)
