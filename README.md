@@ -185,6 +185,12 @@ Below are the following pages detailed for the Streamlit App User Interface whic
     * *I predict that Age will have an affect on the correlation of diabetes*
     * *Biomarkers such as blood pressure and skin thickness will likely hold a low level of correlation for whether or not a patient has diabetes.*
 
+<details>
+<summary>Dashboard Page: Hypothesis</summary>
+
+![Screenshot 1](/docs/screenshots/hypothesis_1.png)
+</details>
+
 #### Page 4: Machine Learning Model
 * This page will display the Machine Learning Model for the Data Practitioner
 * This page will cover business requirement 2 for building a machine learning model
