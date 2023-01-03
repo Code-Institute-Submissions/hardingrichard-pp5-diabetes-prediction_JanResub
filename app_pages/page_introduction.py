@@ -71,6 +71,12 @@ def page_introduction_body():
         f"    * Outcome (indicator for whether the patient has diabetes) \n"
     )
 
+    st.warning(
+        "Please collapse the 'Table of Diabetes Dataset' below to see the "
+        "details for the variables used within the dataset "
+        "with an explanation for each variables meaning, the min and "
+        "max unit figures, and lastly the data type of the variable."
+        )
     # Displays a table of the dataset variables using a HTML string
     st.markdown(html_string, unsafe_allow_html=True)
 
