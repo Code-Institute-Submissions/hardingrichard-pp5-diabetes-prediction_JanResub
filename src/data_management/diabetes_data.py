@@ -10,3 +10,10 @@ def load_diabetes_data():
     df = pd.read_csv("outputs/datasets/collection/diabetes.csv")
     
     return df
+
+def load_pkl_file(file_path):
+    """
+    Loads the trained SVM classifier for dashboard use
+    """
+
+    return joblib.load(filename=file_path)
