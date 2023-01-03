@@ -138,7 +138,7 @@ Below are the following pages detailed for the Streamlit App User Interface whic
 * Page 4 - Machine Learning Model
 * Page 5 - Diabetes Prediction
 
-##### Page 1: Introduction
+#### Page 1: Introduction
 * This page summarises the business case
 * Details the business requirements
 * Displays Dataset information and explanations for the feature sets in a table format
@@ -150,7 +150,7 @@ Below are the following pages detailed for the Streamlit App User Interface whic
 ![Screenshot 3](/docs/screenshots/introduction_3.png)
 </details>
 
-##### Page 2: Correlation Study
+#### Page 2: Correlation Study
 * This page shows the correlation study for the diabetes outcome from the notebook 02-CorrelationStudy.ipynb
 * This page is intended to answer the business requirement 1 for the Correlation and Visualisation of data.
 * Post-Data analysis determined that the page will contain:
@@ -160,7 +160,7 @@ Below are the following pages detailed for the Streamlit App User Interface whic
     * Checkbox for the Visualisation of individual plots for the feature sets
     * Written conclusion for the correlated variables
 
-##### Page 3: Hypothesis
+#### Page 3: Hypothesis
 * This page will cover the project hypotheses posed at the start of the project
 * This page partly covers the business requirement 1 for discovering how biomarkers correlate with the outcome of diabetes
 * Post data analysis the page determined the confirmation of the following hypotheses:
@@ -168,7 +168,7 @@ Below are the following pages detailed for the Streamlit App User Interface whic
     * *I predict that Age will have an affect on the correlation of diabetes*
     * *Biomarkers such as blood pressure and skin thickness will likely hold a low level of correlation for whether or not a patient has diabetes.*
 
-##### Page 4: Machine Learning Model
+#### Page 4: Machine Learning Model
 * This page will display the Machine Learning Model for the Data Practitioner
 * This page will cover business requirement 2 for building a machine learning model
 * This page will also cover business requirement 3 for the accuracy of the machine learning model
@@ -176,7 +176,7 @@ Below are the following pages detailed for the Streamlit App User Interface whic
 * The performance of the machine learning model will be displayed by showing the accuracy score for both the train and test datasets
 * Confirmation of whether the data meets the business requirement of having a 75% or above accuracy
 
-##### Page 5: Diabetes Outcome Prediction
+#### Page 5: Diabetes Outcome Prediction
 * This page is intended to cover the business requirement 4 for having an interactive dashboard where the user can input data to form a prediction for the outcome of diabetes
 * This page will contain numerous interactive input widgets such as number input widgets for data entry
 * An interactive button widget for the user to press to input the diabetes dataset to the machine learning pipeline for predicting the outcome of diabetes
