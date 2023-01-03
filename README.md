@@ -163,6 +163,20 @@ Below are the following pages detailed for the Streamlit App User Interface whic
     * Checkbox for the Visualisation of individual plots for the feature sets
     * Written conclusion for the correlated variables
 
+<details>
+<summary>Dashboard Page: Correlation Study</summary>
+
+![Screenshot 1](/docs/screenshots/correlation_1.png)
+
+![Screenshot 2](/docs/screenshots/correlation_2.png)
+
+![Screenshot 3](/docs/screenshots/correlation_3.png)
+
+![Screenshot 4](/docs/screenshots/correlation_4.png)
+
+![Screenshot 5](/docs/screenshots/correlation_5.png)
+</details>
+
 #### Page 3: Hypothesis
 * This page will cover the project hypotheses posed at the start of the project
 * This page partly covers the business requirement 1 for discovering how biomarkers correlate with the outcome of diabetes
