@@ -1,6 +1,8 @@
 # Diabetes Prediction
-The Diabetes Predictor is a Machine Learning project that assists healthcare professionals in providing a prediction on whether or not a patient has diabetes using data inputs. The dashboard for the Diabetes Predictor is hosted on Heroku and can be accessed [HERE](https://pp5-diabetes-prediction.herokuapp.com/)
+The Diabetes Predictor is a Machine Learning project that assists healthcare professionals in providing a prediction on whether or not a patient has diabetes using data inputs. 
+
 ![Example image](docs/screenshots/dashboard_example.png)
+The dashboard for the Diabetes Predictor is hosted on Heroku and can be accessed [Clicking Here](https://pp5-diabetes-prediction.herokuapp.com/)
 
 ## Table of Contents
 1. [Dataset Content](#dataset-content)
@@ -53,7 +55,7 @@ The project for predicting diabetes can be divided into 4 epics which are as fol
 * Training and implementing the Machine Learning model
 * Creation and deployment of the dashboard for endpoint use
 
-The user stories which relate to the above can be seen below in the table.
+The user stories which relate to the above epics can be seen below in the table along with their mapping to the Business Requirements.
 
 |No.|As a |I want to |Business Requirement Covered |Satisfied? (Y/N)|
 |:----|:----|:----|:----|:----|
@@ -76,7 +78,7 @@ The user stories which relate to the above can be seen below in the table.
 |17.|Data Practitioner|Have a live website where new dashboard implementations can be developed|Business Requirement 4|Y|
 
 
-## Hypothesis
+## Hypothesis and Validation
 The following hypothesis will help guide the direction of data analysis for the above dataset.
 * Based off of my understanding of diabetes, High blood sugar levels are likely to be a primary predictor of the outcome of a diabetes diagnosis.
     * Visualisation to be used and correlation study to validate
