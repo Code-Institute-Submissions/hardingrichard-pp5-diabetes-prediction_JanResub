@@ -53,7 +53,7 @@ The project for predicting diabetes can be divided into 4 epics which are as fol
 * The collection of the data
 * Data visualisation and preparation
 * Training and implementing the Machine Learning model
-* Creation and deployment of the dashboard for endpoint use
+* Planning, Creation and deployment of the dashboard for endpoint use
 
 The user stories which relate to the above epics can be seen below in the table along with their mapping to the Business Requirements.
 
@@ -74,7 +74,7 @@ The user stories which relate to the above epics can be seen below in the table 
 |13.|Data Practitioner|Be able to make predictions off of the dataset following the creation of a ML model|Business Requirement 2, 4|Y|
 |14.|Data Practitioner|Be able to clean the dataset of any unusable or incomplete data for use with analysis and the machine learning model|Business Requirement 1|Y|
 |15.|Data Practitioner|Create a machine learning model for predicting the likeliness of diabetes|Business Requirement 2|Y|
-|16.|Data Practitioner|Create a dashboard to visualise the data and enable the end user to make use of future predictions|Business Requirement 4|Y|
+|16.|Data Practitioner|Plan and create a dashboard to visualise the data and enable the end user to make use of future predictions|Business Requirement 4|Y|
 |17.|Data Practitioner|Have a live website where new dashboard implementations can be developed|Business Requirement 4|Y|
 
 
@@ -108,7 +108,7 @@ The following hypothesis will help guide the direction of data analysis for the 
     * Having trained the model, testing data will be used to determine the accuracy score for insight into how well the model is performing.
     * The Modeling Evaluation notebook details this business requirement.
 * Business Requirement 4 - Creation of a Dashboard for user input
-    * Creation of a user interface where a summarised description of model can be viewed
+    * Creation of a user interface where a summarised description of model and data visualisations can be viewed
     * Allow for manual data input for the model to predict diabetes outcome
     * The streamlit app pages cover this business requirement.
 
