@@ -143,6 +143,13 @@ Below are the following pages detailed for the Streamlit App User Interface whic
 * Details the business requirements
 * Displays Dataset information and explanations for the feature sets in a table format
 
+<details>
+<summary>Dashboard Page: Introduction</summary>
+![Screenshot 1](/docs/screenshots/introduction_1.png)
+![Screenshot 2](/docs/screenshots/introduction_2.png)
+![Screenshot 3](/docs/screenshots/introduction_3.png)
+</details>
+
 ##### Page 2: Correlation Study
 * This page shows the correlation study for the diabetes outcome from the notebook 02-CorrelationStudy.ipynb
 * This page is intended to answer the business requirement 1 for the Correlation and Visualisation of data.
