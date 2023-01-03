@@ -8,3 +8,5 @@ def load_diabetes_data():
     """
 
     df = pd.read_csv("outputs/datasets/collection/diabetes.csv")
+    
+    return df
