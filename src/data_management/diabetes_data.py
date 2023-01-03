@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import joblib
 
 @st.cache(suppress_st_warning=True, allow_output_mutation=True)
 def load_diabetes_data():
