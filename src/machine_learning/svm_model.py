@@ -1,4 +1,4 @@
-import numpy as py
+import numpy as np
 
 # Support Vector Machine pipeline for predicting output of Diabetes
 class SVM_pipeline():
