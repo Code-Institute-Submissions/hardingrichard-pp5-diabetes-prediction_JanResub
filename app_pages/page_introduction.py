@@ -68,7 +68,7 @@ def page_introduction_body():
         f"based on family history) \n"
         f"    * Age (the age of the subject in years) \n"
         f"\n and lastly also a target variable: \n"
-        f"    * Outcome (indicator for whether the patient has diabetes) \n"
+        f"    * Outcome (class variable of 1 (Diabetic) and 0 (Non-Diabetic))"
     )
 
     st.warning(
