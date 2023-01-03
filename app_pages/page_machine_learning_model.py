@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as pyplot
+import numpy as np
+import pickle
 from src.data_management.diabetes_data import load_pkl_file
 
 def page_machine_learning_model_body():
@@ -9,9 +11,7 @@ def page_machine_learning_model_body():
     """
 
     # Loads the files and trained model
-    classifier_SVM = load_pkl_file(
-        f"outputs/svm_pipeline/predict_diabetes/v1.0/classifier_SVM.pkl"
-        )
+    load_svm_model = pickle.load(open('outputs/svm_pipeline/predict_diabetes/v1.0/trained_svm.sav', 'rb'))
     x_train = pd.read_csv(
         f"outputs/svm_pipeline/predict_diabetes/v1.0/x_train.csv"
         )
