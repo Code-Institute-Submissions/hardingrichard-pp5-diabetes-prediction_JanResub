@@ -145,8 +145,11 @@ Below are the following pages detailed for the Streamlit App User Interface whic
 
 <details>
 <summary>Dashboard Page: Introduction</summary>
+
 ![Screenshot 1](/docs/screenshots/introduction_1.png)
+
 ![Screenshot 2](/docs/screenshots/introduction_2.png)
+
 ![Screenshot 3](/docs/screenshots/introduction_3.png)
 </details>
 
